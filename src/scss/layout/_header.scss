@@ -1,0 +1,46 @@
+.header{
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/header.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    padding-top: 20px;
+    font-family: $font-family-primary;
+
+    .container{
+      display: flex;
+      justify-content: center;
+
+      .hamburger-menu{
+        position: fixed;
+        top: 55px;
+        left: 33px;
+        color: $primary-color;
+      }
+    }
+
+    .tittle{
+      color: $primary-color;
+      font-size: $large-font;
+      text-align: center;
+      margin-bottom: 62px;
+      margin-top: 62px;
+      font-weight: 600;
+    }
+
+    .buy-now-container{
+      display: flex;
+      justify-content: center;
+
+      .buy-now{
+        width: 176px;
+        height: 48px;
+        border: none;
+        background-color: $primary-color;
+        color: $secondary-color;
+        font-size: $small-font;
+        text-transform:capitalize;
+      }
+    }    
+}

@@ -1,0 +1,70 @@
+// @import 'core/variables';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+
+@import 'core/reset';
+
+$primary-color: #0c474b;
+$secondary-color: #fff;
+$primary-background: #f0ebe5;
+$secondary-background: #ff975a;
+$small-font: 16px;
+$medium-font: 20px;
+$large-font: 24px;
+$font-family-primary: 'Poppins', sans-serif;
+
+@import 'layout/header';
+
+.main{
+  background-color: $primary-background;
+  font-family: $font-family-primary;
+  color: $primary-color;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:136px 322px 322px 250px;
+  text-align: center;
+  padding: 41px 47px 18px 45px;
+  
+  .h2-main-container{
+    font-family: $font-family-primary;
+    font-size: $large-font;
+    color: $primary-color;
+    font-weight: 600;
+    line-height: normal;
+    .h2-main{
+      &::first-letter{
+        text-transform: uppercase;
+      }
+      .open-spaces{
+        text-transform: uppercase;
+      }
+    }
+  }
+  .h3-main{
+    font-size: $medium-font;
+    font-weight: 600;
+    margin-top: 30px;
+    max-width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    &::first-letter{
+      text-transform: uppercase;
+    }
+  }
+  .paragraph-main{
+    font-size: $small-font;
+    max-width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: normal;
+    &::first-letter{
+      text-transform: uppercase;
+    }
+  }
+}
+
