@@ -7,6 +7,10 @@
     grid-template-rows:136px 322px 322px 250px;
     text-align: center;
     padding: 41px 47px 18px 45px;
+    @media all and (min-width: $tablet){
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 120px 350px;
+    }
     
     .h2-main-container{
       font-family: $font-family-primary;
@@ -14,12 +18,23 @@
       color: $primary-color;
       font-weight: 600;
       line-height: normal;
+
+      @media all and (min-width: $tablet){
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+
       .h2-main{
         &::first-letter{
           text-transform: uppercase;
         }
         .open-spaces{
           text-transform: uppercase;
+        }
+
+        @media all and (min-width: $tablet){
+          max-width: 550px;
+          margin: auto;
         }
       }
     }

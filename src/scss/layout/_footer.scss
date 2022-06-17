@@ -10,6 +10,11 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
+    @media all and (min-width: $tablet){
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
     .footer-section{
         width: 130px;
 
@@ -38,6 +43,15 @@
     position: absolute;
     bottom: 30px;
     right: 30px;
+
+    @media all and (min-width: $tablet){
+        bottom: 63px;
+        right: 57px;
+    }
+
+    @media all and (min-width: $desktop){
+        right: 150px;
+    }
 
     .arrow-footer{
         color: $secondary-color;

@@ -3,15 +3,31 @@
     font-family: $font-family-primary;
     color: $primary-color;
     text-align: center;
+
+    @media all and (min-width: $desktop){
+      display: flex;
+      text-align: left;
+    }
  
     .container-enjoy{
-     padding-bottom: 90px;
-     padding-top: 90px;
- }
+      padding-bottom: 90px;
+      padding-top: 90px;
+
+      @media all and (min-width: $desktop){
+        width: 50%;
+      }
+    }
  
     .h2-section-2{
      font-size: $large-font;
      font-weight: 600;
+     
+     @media all and (min-width: $desktop){
+      margin-left: 280px;
+      max-width: 250px;
+      line-height: 36px;
+    }
+
      &::first-letter{
          text-transform: uppercase;
        }
@@ -23,6 +39,13 @@
      margin-left: auto;
      margin-right: auto;
      margin-top: 20px;
+
+    @media all and (min-width: $desktop){
+      margin-left: 280px;
+      max-width: 250px;
+      margin-top: 5px;
+    }
+
      &::first-letter{
          text-transform: uppercase;
        }
@@ -37,15 +60,27 @@
      font-size: 16px;
      text-transform: capitalize;
      margin-top: 28px;
+
+     @media all and (min-width: $desktop){
+      margin-left: 280px;
+      margin-top: 20px;
+    }
+
      &:hover{
       opacity: 0.7;
+      cursor: pointer;
      }
     }
  
     .container-photo{
      height: 304px;
      background-image: url("../images/creando-espacios.jpg");
-     background-size: auto 100%;
+     background-size: cover;
      background-position: center;
+
+      @media all and (min-width: $desktop){
+        width: 50%;
+        height: auto;
+      }
     }
  }
