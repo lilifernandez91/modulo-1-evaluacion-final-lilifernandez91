@@ -28,6 +28,7 @@
         &::first-letter{
           text-transform: uppercase;
         }
+
         .open-spaces{
           text-transform: uppercase;
         }
@@ -38,6 +39,7 @@
         }
       }
     }
+
     .h3-main{
       font-size: $medium-font;
       font-weight: 600;
@@ -49,6 +51,7 @@
         text-transform: uppercase;
       }
     }
+    
     .paragraph-main{
       font-size: $small-font;
       max-width: 205px;
