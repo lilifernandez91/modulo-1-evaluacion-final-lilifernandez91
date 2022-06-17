@@ -157,6 +157,8 @@ table {
       color: #fff;
       font-size: 16px;
       text-transform: capitalize; }
+      .header .buy-now-container .buy-now:hover {
+        opacity: 0.7; }
 
 .main {
   background-color: #f0ebe5;
@@ -257,6 +259,8 @@ table {
     font-size: 16px;
     text-transform: capitalize;
     margin-top: 28px; }
+    .section-2 .button-section-2:hover {
+      opacity: 0.7; }
   .section-2 .container-photo {
     height: 304px;
     background-image: url("../images/creando-espacios.jpg");
@@ -285,13 +289,19 @@ table {
       margin-bottom: 20px; }
       .footer .footer-section .list-footer .list-footer-element {
         margin-bottom: 5px;
-        font-weight: 100;
-        color: #b6c8c9; }
+        font-weight: 100; }
+    .footer .footer-section .list {
+      color: #b6c8c9;
+      text-decoration: none; }
   .footer .arrow-footer-section {
     position: absolute;
     bottom: 30px;
     right: 30px; }
     .footer .arrow-footer-section .arrow-footer {
       color: #fff; }
+  .footer .footer-section .icono-footer-section {
+    color: #fff; }
+  .footer .footer-section .icono-footer {
+    margin-right: 11px; }
 
 /*# sourceMappingURL=main.css.map */
