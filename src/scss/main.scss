@@ -12,6 +12,7 @@ $primary-color: #0c474b;
 $secondary-color: #fff;
 $primary-background: #f0ebe5;
 $secondary-background: #ff975a;
+$extra-small-font:14px;
 $small-font: 16px;
 $medium-font: 20px;
 $large-font: 24px;
@@ -19,52 +20,52 @@ $font-family-primary: 'Poppins', sans-serif;
 
 @import 'layout/header';
 
-.main{
-  background-color: $primary-background;
-  font-family: $font-family-primary;
-  color: $primary-color;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:136px 322px 322px 250px;
-  text-align: center;
-  padding: 41px 47px 18px 45px;
-  
-  .h2-main-container{
+@import 'layout/main';
+
+@import 'layout/section-1';
+
+@import 'layout/section-2';
+
+.footer{
+    background-color: $primary-color;
+    color: $secondary-color;
     font-family: $font-family-primary;
-    font-size: $large-font;
-    color: $primary-color;
-    font-weight: 600;
-    line-height: normal;
-    .h2-main{
-      &::first-letter{
-        text-transform: uppercase;
-      }
-      .open-spaces{
-        text-transform: uppercase;
-      }
+    font-size: $extra-small-font;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .footer-section{
+        width: 130px;
+
+        .h3-footer{
+            font-size: $medium-font;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #b6c8c9;
+        }
+
+        .list-footer{
+            margin-bottom: 20px;
+
+            .list-footer-element{
+                margin-bottom: 5px;
+                font-weight: 100;
+                color: #b6c8c9;
+            }
+        }
     }
-  }
-  .h3-main{
-    font-size: $medium-font;
-    font-weight: 600;
-    margin-top: 30px;
-    max-width: 205px;
-    margin-left: auto;
-    margin-right: auto;
-    &::first-letter{
-      text-transform: uppercase;
+.arrow-footer-section{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+    .arrow-footer{
+        color: $secondary-color;
     }
-  }
-  .paragraph-main{
-    font-size: $small-font;
-    max-width: 205px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    line-height: normal;
-    &::first-letter{
-      text-transform: uppercase;
-    }
-  }
 }
 
+}

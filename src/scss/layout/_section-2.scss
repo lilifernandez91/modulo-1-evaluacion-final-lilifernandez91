@@ -1,0 +1,48 @@
+.section-2{ 
+    background-color: $primary-background;
+    font-family: $font-family-primary;
+    color: $primary-color;
+    text-align: center;
+ 
+    .container-enjoy{
+     padding-bottom: 90px;
+     padding-top: 90px;
+ }
+ 
+    .h2-section-2{
+     font-size: $large-font;
+     font-weight: 600;
+     &::first-letter{
+         text-transform: uppercase;
+       }
+    }
+ 
+    .paragraph-section-2{
+     font-size: $extra-small-font;
+     max-width: 345px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     &::first-letter{
+         text-transform: uppercase;
+       }
+    }
+ 
+    .button-section-2{
+     width: 176px;
+     height: 48px;
+     border: none;
+     background-color: #0c474b;
+     color: #fff;
+     font-size: 16px;
+     text-transform: capitalize;
+     margin-top: 28px;
+    }
+ 
+    .container-photo{
+     height: 304px;
+     background-image: url("../images/creando-espacios.jpg");
+     background-size: auto 100%;
+     background-position: center;
+    }
+ }
