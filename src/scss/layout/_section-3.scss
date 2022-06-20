@@ -1,0 +1,17 @@
+.section-3{
+    width: 100%;
+    background-color: $secondary-background;
+    color: $secondary-color;
+    display: none;
+
+    @media all and (min-width: $tablet){
+display: grid;
+grid-template-columns: 1fr 1fr;
+.h2-tittle{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+    }
+}
