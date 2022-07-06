@@ -122,13 +122,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  scroll-behavior: smooth; }
+
 .header {
   height: 389px;
   display: flex;
   flex-direction: column;
   background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50%;
   padding-top: 20px;
   font-family: "Poppins", sans-serif; }
   @media all and (min-width: 900px) {
@@ -138,7 +142,7 @@ table {
   .header .navigation-menu {
     display: none;
     top: 70px;
-    position: sticky;
+    position: fixed;
     margin-left: 350px; }
     @media all and (min-width: 1728px) {
       .header .navigation-menu {

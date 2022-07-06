@@ -1,10 +1,15 @@
+* {
+  scroll-behavior: smooth ;
+}
+
 .header{
     height: 389px;
     display: flex;
     flex-direction: column;
     background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50%;
     padding-top: 20px;
     font-family: $font-family-primary;
 
@@ -16,7 +21,7 @@
     .navigation-menu{
       display: none;
       top: 70px;
-      position: sticky;
+      position: fixed;
       margin-left: 350px;
 
       @media all and (min-width: $desktop){
@@ -111,3 +116,4 @@
       }
     }    
 }
+
