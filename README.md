@@ -1,19 +1,22 @@
-# modulo-1-evaluacion-final-lilifernandez91
+#Evaluación Final - Módulo 1 - Lilibet Fernández
+Este proyecto tiene como objetivo la maquetación de una página web con un modelo específico.
 
-## Evaluación final, módulo 1, Lilibet Fernández.
+1- Instrucciones de Instalación
+Antes de instalar el proyecto, asegúrate de tener npm instalado. Luego, sigue los siguientes pasos:
 
-## Demo:
+- Descarga o clona este repositorio en tu máquina local.
+- Abre el proyecto en tu editor de código preferido.
+- Abre una terminal en la ubicación del proyecto y ejecuta el comando npm install para instalar las dependencias necesarias.
+- Ejecuta npm start para iniciar el servidor local y visualizar el proyecto en tu navegador.
 
-http://beta.adalab.es/modulo-1-evaluacion-final-lilifernandez91/
+2- Instrucciones de Uso
+- Este proyecto es una evaluación de la maquetación de una página web y no tiene interactividad. Simplemente evalúa la capacidad del autor para recrear el modelo dado.
 
-## Pasos para arrancar el proyecto:
+¡Gracias por visitar este proyecto!
 
-```
-npm install
-```
 
-Luego de que todos los paquetes se instalen levantamos el proyecto:
 
-```
-npm start
-```
+
+
+
+
